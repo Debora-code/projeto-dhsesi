@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        img {width: 100%;}
+    </style>
+    <title>Meu primeiro site</title>
+</head>
+<body>
+    <!-- O header agrupa os elementos do cabeçaho -->
+    <header>
+        <!-- ids são exclusivos e só podem ser usados uma vez por página, já as classes agrupam elementos com uma mesma identificação -->
+        <h1 id="titulo">Textos da Deh - Welcome to My World</h1>
+        <p class="centro"> Este site é um projeto-teste de aplicação dos conceitos aprendidos no curso da Digital House.</p>
+    </header>
+
+    <!-- O  main agrupa os elementos do conteúdo principal -->
+    <main class="grid">
+        <!--o elemento section separa uma seção semântica no código-->
+        <section class="about">
+            <h2>About</h2>
+            <h3>Debora Santos</h3>
+            <p>Bióloga, apaixonada por viagens, blues, dança e um bocado de outras coisas. Gosta de escutar histórias, observar pessoas e tentar escrever. Às vezes dá certo…</p>
+            <a id="botao" href="https://medium.com/@dehsantos" target="blank">Follow</a>
+        </section>
+        <section class="content">
+            <!--a tag ul lista itens de modo não ordenado-->
+            <h2 class="title1">Teste de listagem</h2>
+            <h3>Lista de Textos da Deh</h3>
+            <ul type="circle">
+                <li>O inferno são os outros...e nós mesmos</li>
+                <li>Se vira nos 30</li>
+                <li>O que te faz acreditar</li>
+                <li>Sobre mudanças</li>
+                <li>Quanto tempo leva uma decisão</li>
+                <li>O Bom, O Mau e a Saudade</li>
+                <li>Sobre Nudez...</li>
+            </ul>
+        </section>
+        <section class="top">
+            <h2>Top 3</h2>
+            <!--a tag ol lista itens de forma ordenada-->
+            <ol>
+                <li><a href="https://medium.com/@dehsantos/sobre-nudez-ef53a03b730e" target="blank"> Sobre nudez... </a></li>
+                <li><a href="https://medium.com/@dehsantos/quanto-tempo-leva-uma-decis%C3%A3o-1e64d889d95e" target="blank"> Quanto tempo leva uma decisão</a></li>
+                <li><a href="https://medium.com/@dehsantos/se-vira-nos-30-98a7cca0b70f" tagert="blank"> Se vira nos 30</a></li>
+            </ol>
+        </section>
+        <section class="content">
+            <h2 class="title1">Texto de Amostra</h2>
+            <img src="figura1.jpg" alt="Imagem de uma mulher">
+            <h3>Sobre Nudez...</h3>
+            <p>Passamos a vida vestidos. Vestidos de roupas, de imagens, vestidos com tantos padrões.</p>
+            <p>Vestimos máscaras do que é aceitável, nos transformando naquilo que nos convencem e nos convencemos a ser. Entorpecemos nossos sentidos cobrindo-nos por inteiro, nossos olhos, nossos corpos, nossos eus. Quem dera conseguisse ficar completamente nua.</p>
+            <p>Quem me dera conseguisse despir-me de meus medos, minhas vergonhas, minhas repreensões, minhas expectativas e até de meus ideais, que por vezes me enganam e me prendem a uma visão única do que é bom, quando há tantas outras possibilidades não pensadas.</p>
+            <p>Quem me dera conseguisse ficar nua de verdade e assim sentir o toque com mais intensidade. Surpreender-me em arrepios, sentindo o calor das coisas e, assim, ficar nua para de fato…</p>
+            <h2>Figuras</h2>
+            <!-- A tag img precisa de dois atributos: 'src' que indica a origem da imagem (local ou remota) e 'alt' que define o texto alternativo da imagem. -->
+            <figure>
+                <img src="figura1.jpg" alt="Figura Texto Sobre Nudez">
+                <img src="figura2.jpg" alt="Figura Texto 2">
+                <img src="figura3.jpg" alt="Foto de um óculos mostrando a praia no reflexo">
+                <img src="https://unsplash.com/photos/VbPf2GVt2rU" alt="Lights and cookies">
+            </figure>
+        </section>
+    </main>
+    <!--O footer agrupa elementos do final da página, aqueles que sempre devem aparecer, como p.ex. redes sociais e outros links-->
+    <footer class="container">
+        <p>Debora Santos Medium - Textos originais na página <a href="https://medium.com/@dehsantos" target="blank"> Personal Medium Profile</a> <!--The target attribute specifies where to open the linked document--> </p>
+    </footer>
+</body>
+</html>

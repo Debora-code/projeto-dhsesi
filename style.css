@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Display:wght@300&family=Raleway:wght@200&display=swap');
+
+/* box-sizing define o tamanho do elemento */
+html * {
+    box-sizing: border-box;
+}
+body {
+    
+    /*background-color: white;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #CCAC9F;
+    font-family: 'Raleway', sans-serif;
+    /* Podemos limitar a largura de qualquer elemento com a propriedade width e centralizar o conteúdo com margin automática. */
+    /*width: 100%;
+    margin: auto;*/
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,0.8);
+    position: relative;
+    min-height: 100vh;
+}
+
+header{
+    background-image: url("sky.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    padding: 32px;
+}
+
+#titulo {
+    background-color: white;
+    font-size: 70px;
+    margin: 0;
+    padding: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Big Shoulders Inline Display', cursive;
+    color: black;
+    text-align: center;
+    text-shadow: 2px 2px #ccc;
+    border-radius: 8px;
+}
+
+.centro{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.grid{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: 200px 70%;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    align-content: center;
+}
+.about {
+    border-radius: 8px;
+    padding: 15px;
+    background-color: rgb(223, 186, 210);
+    gap: 20%;
+}
+#botao{
+    background-color: #5f578d;
+    border-radius: 8px;
+    color: white;
+    display: inline-block;
+    margin-top: 15px;
+    padding: 15px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition:background-color 0.5s;
+}
+#botao:hover{
+    opacity: 0.9;
+    box-shadow: 2px 2px 2px #424242;
+}
+.top{
+    padding: 15px;
+    font-size: 20px;
+}
+.title1{
+    font-weight: 800;
+    background-color:  rgba(206, 193, 193, 0.9);
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+.content{
+    font-size: 25px;
+}
+img {
+    max-width: 100%;
+}
+
+figure img {
+    width: 100%;
+    
+}
+
+/*a {
+    background-color: #8C3F6A;
+    border-radius: 8px;
+    color: white;
+    display: inline-block;
+    margin-top: 15px;
+    padding: 15px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition:background-color 0.5s;
+}
+a:hover {
+    opacity: 0.9;
+    box-shadow: 2px 2px 2px #424242;
+}*/
+
+footer{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    height: 10vh;
+    text-align: center;
+    padding: 10px;
+}
